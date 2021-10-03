@@ -1,4 +1,4 @@
-_G.Key = "J5TY-H4U7-4I18-ILUJ"
+_G.Key = ""
 local key = _G.Key or ""
 
 local http_request = http_request
