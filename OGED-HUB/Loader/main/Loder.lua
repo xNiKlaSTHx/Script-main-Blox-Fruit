@@ -1,4 +1,4 @@
-_G.Key = ""
+_G.Key = "J5TY-H4U7-4I18-ILUJ"
 local key = _G.Key or ""
 
 local http_request = http_request
@@ -25,7 +25,7 @@ end
 local body = http_request_get('https://httpbin.org/get')
 local decoded = jsondecode(body)
 
-local data = jsondecode(http_request_get("http://25.18.83.176/whitelist/sever.php".. key))
+local data = jsondecode(http_request_get("http://25.18.83.176/whitelist/sever.php?key=".. key))
 
 if data.Key == key then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/ALLFREE/main/hyperx.lua"))()
