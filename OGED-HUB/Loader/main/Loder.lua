@@ -28,6 +28,7 @@ local data = jsondecode(http_request_get("http://25.18.83.176/whitelist/sever.ph
 
 if data.Key == key then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/ALLFREE/main/hyperx.lua"))()
+print("หากกด Execute แล้วไม่ติดกรุณาเปิด Hamachi ด้วย!!")
     if data.Blacklist == "False" then
         print(1)
             else
