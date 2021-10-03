@@ -28,15 +28,14 @@ local data = jsondecode(http_request_get("http://25.18.83.176/whitelist/sever.ph
 
 if data.Key == key then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/ALLFREE/main/hyperx.lua"))()
-print("หากกด Execute แล้วไม่ติดกรุณาเปิด Hamachi ด้วย!!")
     if data.Blacklist == "False" then
         print(1)
             else
-                print("Blacklist Reason : "..data.Reason)
-                game.Players.LocalPlayer:Kick("Blacklist Reason : "..data.Reason)
+                print("มึงติด Blacklist ไอสัสไม่ต้องใช้ Script ไอโง่ : "..data.Reason)
+                game.Players.LocalPlayer:Kick("มึงติด Blacklist ไอสัสไม่ต้องใช้ Script ไอโง่ : "..data.Reason)
                 end
         else
-            warn("Invalid Key")
-            game.Players.LocalPlayer:Kick("Invalid Key")
+            warn("Key มึงไม่ตรงแล้วมึงจะรันหาพ่อมึงหรอไอควาย อย่าหลอน")
+            game.Players.LocalPlayer:Kick("Key มึงไม่ตรงแล้วมึงจะรันหาพ่อมึงหรอไอควาย อย่าหลอน")
             
 end
