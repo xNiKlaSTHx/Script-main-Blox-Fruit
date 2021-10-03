@@ -1,4 +1,3 @@
-_G.Key = ""
 local key = _G.Key or ""
 
 local http_request = http_request
